@@ -1,0 +1,61 @@
+.layout {
+min-height: 100vh;
+}
+
+
+
+.logo {
+    width: 40%;
+    min-width: 120px;
+    max-width: 300px;
+}
+
+
+.button_lupa {
+    min-width: 15vw;
+}
+
+.banner {
+    width: 100vw;
+    height: 33vh;
+    object-fit: cover;
+
+}
+
+.banner_title {
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+.color_button {
+    color: white;
+
+}
+
+.footer_height {
+    height: 8vh;
+
+}
+
+.card_size {
+    height: 45vh;
+
+}
+
+.img_card {
+    width: 100vw;
+    height: 100%;
+object-fit: contain;
+
+}
+
+.main_card {
+min-height: 86vh;
+
+}
+
+
+
+table tr {height:50px;}
