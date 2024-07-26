@@ -40,7 +40,7 @@
 }
 
 .card_size {
-    height: 45vh;
+    height: 50vh;
     width: 16rem;
 
 }
@@ -69,5 +69,5 @@ table tr {
 }
 
 .red_social {
-    width: 7vh;
+    max-width: 7vh;
 }
