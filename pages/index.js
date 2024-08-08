@@ -200,21 +200,21 @@ function createEventCard(event) {
 
     let eventCard = `
     <div class="card card_size">
-    <img src="${event.image}" class="event-image p-1" alt="${event.name}">
-    <div class="card-body d-flex flex-column  ">
-        <div class="d-flex justify-content-center">
-            <h5 class="card-title" style="font-weight: bold">${event.name}</h5>
-        </div>
-        <div class="d-flex text-center ">
-            <p class="card-text pv-archiveText">${event.description}</p>
-        </div>
-        <div class="d-flex flex-column mt-auto">
-            <div class="d-flex justify-content-around pt-4">
-                <b class="m-0 align-self-center">Price: ${event.price}</b>
-                <a href="/pages/card.html" class="btn btn-primary">Details</a>
+        <img src="${event.image}" class="event-image p-1" alt="${event.name}">
+        <div class="card-body d-flex flex-column  ">
+            <div class="d-flex justify-content-center">
+                <h5 class="card-title" style="font-weight: bold">${event.name}</h5>
+            </div>
+            <div class="d-flex text-center ">
+                <p class="card-text pv-archiveText">${event.description}</p>
+            </div>
+            <div class="d-flex flex-column mt-auto">
+                <div class="d-flex justify-content-around pt-4">
+                    <b class="m-0 align-self-center">Price: ${event.price}</b>
+                    <a href="/pages/card.html" class="btn btn-primary">Details</a>
+                 </div>
             </div>
         </div>
-    </div>
     </div>
     `;
     return eventCard;
